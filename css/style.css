@@ -23,5 +23,17 @@ header h1 {
   margin-bottom: 10px;
 }
 
-
+/* Navigation */
+nav {
+  background: #333;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
 
