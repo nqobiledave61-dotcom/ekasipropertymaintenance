@@ -37,3 +37,32 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Main content container */
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+main h2, main h3 {
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+main p, main ul {
+  margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+main ul li {
+  margin-bottom: 8px;
+}
+main ul li strong {
+  color: #4a90e2;
+}
+
