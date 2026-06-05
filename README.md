@@ -51,6 +51,9 @@ Future submissions (Part 2 and Part 3) will include advanced features, deploymen
 - Afrihost Hosting Documentation  
 - FreeCodeCamp (HTML, CSS, JavaScript tutorials)  
 - IIE Rosebank College Student Materials  
-- Microsoft Copilot (project structuring assistance)  
+- Microsoft Copilot (project structuring assistance)
+
+- <img width="1262" height="843" alt="image" src="https://github.com/user-attachments/assets/46c4a6d3-c73d-47b9-9e22-a5fc6e89555a" />
+
 
 
