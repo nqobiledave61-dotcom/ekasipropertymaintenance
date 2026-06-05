@@ -45,7 +45,16 @@ Future submissions (Part 2 and Part 3) will include advanced features, deploymen
 ## 📝 Changelog
 - **v1.0 (May 2026):** Initial README.md created with project overview, goals, and timeline  
 - **v1.1 (Future):** Add Part 2 details (design plan)  
-- **v1.2 (Future):** Add Part 3 details (final deployment and testing)  
+- **v1.2 (Future):** Add Part 3 details (final deployment and testing)
+- ## Changelog
+- Updated navigation bar for consistent styling across all pages.
+- Improved image responsiveness using max-width and height:auto.
+- Added media queries for tablet and mobile breakpoints.
+- Enhanced form styling for better readability.
+- Used developer tools to test what the website looks like on a smaller screen
+- Used Developer tool to check consistency across all pages header, body, footer and was able to spot a footer mispositioned in one of the pages
+  
+
 
 ## 📚 References
 - Afrihost Hosting Documentation  
