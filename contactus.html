@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="description" content="Ekasi Property Maintenance offers renovations, plumbing, lawn care, and electrical services in Soweto. Reliable and affordable property solutions.">
-    <meta name="keywords" content="property maintenance, Soweto, renovations, plumbing, lawn care, electrical services">
-    <meta name="author" content="Ekasi Property Maintenance">
-    <link rel="canonical" href="https://yourwebsite.netlify.app/">
-
     <meta charset="UTF-8">
     <title>Contact Us - Ekasi Property Maintenance</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Contact Ekasi Property Maintenance for enquiries, quotes, and support in Soweto.">
+    <meta name="keywords" content="contact, property maintenance, Soweto, enquiries, quotes">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
 </head>
 <body>
-    
-    <!-- Header -->
     <header>
         <h1>Ekasi Property Maintenance</h1>
         <nav>
@@ -24,34 +20,26 @@
         </nav>
     </header>
 
-    <!-- Main Content -->
     <main>
         <h2>Get in Touch</h2>
-        <p>We'd love to hear from you!</p>
-
-        <h3>Contact Details</h3>
-        <p><strong>Address:</strong> 123 Street, Soweto, Johannesburg</p>
-        <p><strong>Phone:</strong> +27 123 456 7890</p>
-        <p><strong>Email:</strong> info@ekasimaintenance.co.za</p>
-        <p><strong>Hours:</strong> Mon-Fri: 9:00 AM - 6:00 PM</p>
-
-        <h3>Send Us a Message</h3>
-        <p>Fill out the form below and we'll respond with a customized quote or assistance.</p>
-
-        <!-- Simple Contact Form -->
-        <form>
+        <form id="contactForm">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-
+            <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-
+            <input type="email" id="email" name="email" required>
             <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5"></textarea>
-
+            <textarea id="message" name="message" rows="5" required></textarea>
             <input type="submit" value="Send">
         </form>
 
-       
+        <div id="map" style="height:400px;"></div>
+    </main>
 
-        <!--
+    <footer>
+        <p>&copy; 2026 Ekasi Property Maintenance | Soweto, Johannesburg</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
