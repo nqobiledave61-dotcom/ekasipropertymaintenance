@@ -39,7 +39,7 @@ It demonstrates the use of **HTML, CSS, and JavaScript** to build a responsive, 
   - Improved form styling and hover effects.
 
 - **Deployment**
-  - Deployed site on Netlify (or GitHub Pages).
+  - Deployed on Netlify https://comforting-frangipane-5a5193.netlify.app/
   - Verified all pages load correctly without errors.
 
 ---
