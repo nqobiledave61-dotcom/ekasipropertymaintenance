@@ -1,10 +1,11 @@
-/* Reset and base styles */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Base */
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -15,7 +16,7 @@ body {
 
 /* Header */
 header {
-  background: #4a90e2;
+  background: #004080;
   color: white;
   padding: 20px;
   text-align: center;
@@ -38,20 +39,17 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Main content container */
+/* Main content */
 main {
-  max-width: 98%;          /* almost full width */
-  margin: 10px auto;       /* minimal margin so shadow sits near edges */
+  max-width: 95%;
+  margin: 20px auto;
   padding: 30px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
-  /* Larger, softer shadow reaching outward */
-  box-shadow: 0 0 60px rgba(0,0,0,0.3);
-}
-
+  box-shadow: 0 0 40px rgba(0,0,0,0.2);
 }
 main h2, main h3 {
-  color: #4a90e2;
+  color: #004080;
   margin-bottom: 10px;
 }
 main p, main ul {
@@ -66,11 +64,8 @@ ul {
 main ul li {
   margin-bottom: 8px;
 }
-main ul li strong {
-  color: #4a90e2;
-}
 
-/* Forms (Get a Quote + Contact Us) */
+/* Forms */
 form {
   background: #f9f9f9;
   padding: 20px;
@@ -91,7 +86,7 @@ form input, form textarea {
   border-radius: 3px;
 }
 form input[type="submit"] {
-  background: #4a90e2;
+  background: #004080;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -99,7 +94,7 @@ form input[type="submit"] {
   border-radius: 3px;
 }
 form input[type="submit"]:hover {
-  background: #357ab8;
+  background: #003366;
 }
 
 /* Images */
@@ -109,13 +104,6 @@ img {
   display: block;
   margin: 15px auto;
   border-radius: 5px;
-}
-
-/* Gallery layout */
-section {
-  margin-bottom: 20px;
-}
-section img {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -128,7 +116,7 @@ footer {
   margin-top: 20px;
 }
 
-/* Responsive design */
+/* Responsive */
 @media (max-width: 768px) {
   nav {
     display: flex;
@@ -139,9 +127,6 @@ footer {
     margin: 10px 0;
   }
   body {
-    font-size: 14px;
-  }
-  form input, form textarea {
     font-size: 14px;
   }
 }

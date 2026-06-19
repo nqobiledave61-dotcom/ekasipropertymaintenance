@@ -1,5 +1,5 @@
-// Dynamic Search Filter (Index Page)
 document.addEventListener("DOMContentLoaded", () => {
+  // Search Filter (Index)
   const searchBox = document.getElementById("searchBox");
   if(searchBox) {
     searchBox.addEventListener("keyup", function() {
@@ -65,5 +65,17 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(() => alert("Message sent successfully!"))
       .catch(() => alert("Error sending message."));
     });
+  }
+
+  // Interactive Map (Contact Us)
+  const mapDiv = document.getElementById("map");
+  if(mapDiv) {
+    var map = L.map('map').setView([-26.2485, 27.8540], 13); // Soweto coords
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+    L.marker([-26.2485, 27.8540]).addTo(map)
+      .bindPopup("Ekasi Property Maintenance HQ")
+      .openPopup();
   }
 });
