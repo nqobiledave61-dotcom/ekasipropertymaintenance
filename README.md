@@ -53,13 +53,8 @@ It demonstrates the use of **HTML, CSS, and JavaScript** to build a responsive, 
 
 ---
 
-## Deployment
-- **Live Site:** [https://yourwebsite.netlify.app](https://yourwebsite.netlify.app)  
-- **GitHub Repository:** [https://github.com/yourusername/ekasi-property-maintenance](https://github.com/yourusername/ekasi-property-maintenance)
-
----
-
 ## Author
 **Student Name:** Nqobile  
 **Module Code:** WEDE5020  
 **Institution:** The Independent Institute of Education (Pty) Ltd  
+s
