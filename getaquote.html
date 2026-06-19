@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="description" content="Ekasi Property Maintenance offers renovations, plumbing, lawn care, and electrical services in Soweto. Reliable and affordable property solutions.">
-    <meta name="keywords" content="property maintenance, Soweto, renovations, plumbing, lawn care, electrical services">
-    <meta name="author" content="Ekasi Property Maintenance">
-    <link rel="canonical" href="https://yourwebsite.netlify.app/">
-
     <meta charset="UTF-8">
     <title>Get a Quote - Ekasi Property Maintenance</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Request a free quote for property maintenance services in Soweto.">
+    <meta name="keywords" content="quote, property maintenance, Soweto, renovations, plumbing">
 </head>
 <body>
-
-    <!-- Header -->
     <header>
         <h1>Ekasi Property Maintenance</h1>
         <nav>
@@ -24,52 +19,27 @@
         </nav>
     </header>
 
-    <!-- Main Content -->
     <main>
         <h2>Request a Free Quote</h2>
-        <p>Tell us about your project - we'll provide a transparent, no-obligation estimate tailored to your needs.</p>
-
-        <h3>Why Get a Quote?</h3>
-        <ul>
-            <li>Transparent Pricing</li>
-            <li>No Hidden Costs</li>
-            <li>Customized Solutions</li>
-            <li>Dedicated Support</li>
-        </ul>
-
-        <!-- Quote Form -->
-        <form>
+        <form id="quoteForm">
             <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name">
-
+            <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-
+            <input type="email" id="email" name="email" required>
             <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone">
-
+            <input type="tel" id="phone" name="phone" required>
             <label for="project">Project Type:</label>
-            <input type="text" id="project" name="project">
-
+            <input type="text" id="project" name="project" required>
             <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5"></textarea>
-
+            <textarea id="message" name="message" rows="5" required></textarea>
             <input type="submit" value="Submit Request">
         </form>
-
-        <!-- Image section -->
-        <img src="images/Get a quote - Teamwork.png" 
-     alt="Property maintenance services collage" 
-     style="width: 80%; max-width: 600px; height: auto; display: block; margin: 20px auto; border-radius: 5px;">
-
-
-        <p><strong>Submit your request and we'll get back to you promptly!</strong></p>
     </main>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2026 Ekasi Property Maintenance | Soweto, Johannesburg</p>
-        <p>Email: info@ekasimaintenance.co.za | Phone: +27 123 456 7890</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
